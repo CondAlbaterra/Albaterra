@@ -42301,7 +42301,7 @@ s=6
 return A.N(A.dH(m,m.gcm().dD("sellers")).JP(0,"emailSeller",p.e).f1(0),$async$zT)
 case 6:o=b
 if(o.giB(o).length!==0){n=B.d.ga4(o.giB(o))
-if(J.e(A.jk(n.b.ca(0,"role"),n.a),"Administrador")){p.r=!0
+if(J.e(A.jk(n.b.ca(0,"roleSeller"),n.a),"Administrador")){p.r=!0
 m=!0}else{p.r=!1
 m=!1}}else if(p.e==="javieruedase@gmail.com"){p.r=!0
 m=!0}else{p.r=!1
