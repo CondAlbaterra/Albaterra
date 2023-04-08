@@ -44841,7 +44841,7 @@ else o.CW=!0
 o.CW=!0
 s=A.aa("Informaci\xf3n general",n,n,n,A.aY(n,n,B.a7,n,n,n,n,n,n,n,n,18,n,n,B.ab,n,n,!0,n,n,n,n,n,n,n,n),n,n)
 r=t.D
-s=A.io(A.a([new A.aJ(B.uN,A.l5(n,B.RH,B.ay,!1,n,n,n,n,n,n,n,n,n,n,n,n,n,n,new A.ayT(a),n,n,n,n,n,n),n)],r),B.G,!0,0,B.a7,n,s)
+s=A.io(A.a([new A.aJ(B.uN,A.l5(n,B.RI,B.ay,!1,n,n,n,n,n,n,n,n,n,n,n,n,n,n,new A.ayT(a),n,n,n,n,n,n),n)],r),B.G,!0,0,B.a7,n,s)
 q=t.w
 p=a.P(q).f
 q=a.P(q).f
@@ -45306,7 +45306,7 @@ return A.aej(s,new A.aCJ(this.a,b),r,s,s,!1)}else return B.d0},
 $S:89}
 A.aCJ.prototype={
 $2(a,b){var s,r,q,p,o,n,m=null,l="nameSeller",k="lastnameSeller",j="roleSeller",i="statusSeller",h=this.a,g=this.b,f=g.b
-if(h.d){s=A.w(m,B.RI,B.h,B.jz,m,m,m,m,m,m,m,m,m)
+if(h.d){s=A.w(m,B.RH,B.h,B.jz,m,m,m,m,m,m,m,m,m)
 r=f==null
 q=r?m:J.f(J.f(f,b),"sid")
 p=A.i(r?m:J.f(J.f(f,b),l))
@@ -105455,10 +105455,10 @@ B.Ro=new A.c9(58771,!1)
 B.RF=new A.eY(B.Ro,null,null)
 B.Ri=new A.c9(57882,!1)
 B.RG=new A.eY(B.Ri,null,null)
-B.Rp=new A.c9(61050,!1)
-B.RH=new A.eY(B.Rp,null,null)
 B.Rs=new A.c9(62150,!1)
-B.RI=new A.eY(B.Rs,null,null)
+B.RH=new A.eY(B.Rs,null,null)
+B.Rp=new A.c9(60978,!1)
+B.RI=new A.eY(B.Rp,null,null)
 B.Rr=new A.c9(62e3,!0)
 B.vm=new A.eY(B.Rr,null,null)
 B.v=new A.fE(0,"none")
