@@ -49403,7 +49403,7 @@ ai(){return new A.a4c(A.a_(null),A.a_(null),B.p)}}
 A.a4c.prototype={
 aL(){this.aX()},
 N(a){var s=this,r=null,q=t.l,p=a.O(q).f,o=a.O(q).f
-return A.ft(r,A.bU(A.q(r,A.q(r,A.j7(new A.aA(new A.aJ(20,a.O(q).f.a.b*0.1,20,0),A.aC(A.a([A.Rk("assets/images/logo.png",r,B.Tz,240,260),A.q(r,A.ad("Ingresa tu correo electronico",B.bv,!1,s.e,!0,"email",new A.aJd()),B.h,r,B.l,r,r,r,r,r,r,r,r),B.P,A.q(r,A.ad("Ingresa tu contrase\xf1a",B.x0,!0,s.d,!0,"password",new A.aJe()),B.h,r,B.l,r,r,r,r,r,r,r,r),B.z,A.q(r,s.apB(a),B.h,r,B.l,r,r,r,r,r,r,r,r),A.q(r,A.b_n(a,"INICIAR SESI\xd3N",new A.aJf(s,a)),B.h,r,B.l,r,r,r,r,r,r,r,r),B.P],t.D),B.j,B.i,B.k,B.q),r),r,B.a1),B.h,r,B.bN,r,r,r,r,r,r,r,r),B.h,r,r,B.c5,r,o.a.b,r,r,r,r,p.a.a),r,r),!1,r,r)},
+return A.ft(r,A.bU(A.q(r,A.q(r,A.j7(new A.aA(new A.aJ(20,a.O(q).f.a.b*0.1,20,0),A.aC(A.a([A.Rk("assets/images/logo.png",r,B.Tz,240,260),A.q(r,A.ad("Ingresa tu correo electronico",B.bv,!1,s.e,!0,"email",new A.aJd()),B.h,r,B.l,r,r,r,r,r,r,r,r),B.P,A.q(r,A.ad("Ingresa tu contrase\xf1a",B.x0,!0,s.d,!0,"password",new A.aJe()),B.h,r,B.l,r,r,r,r,r,r,r,r),B.z,A.q(r,s.apB(a),B.h,r,B.l,r,r,r,r,r,r,r,r),A.q(r,A.b_n(a,"INICIAR SESI\xd3N (PRUEBA)",new A.aJf(s,a)),B.h,r,B.l,r,r,r,r,r,r,r,r),B.P],t.D),B.j,B.i,B.k,B.q),r),r,B.a1),B.h,r,B.bN,r,r,r,r,r,r,r,r),B.h,r,r,B.c5,r,o.a.b,r,r,r,r,p.a.a),r,r),!1,r,r)},
 apB(a){var s=null,r=a.O(t.l).f
 return A.q(B.Sz,A.fx(A.a2("\xbfOlvidaste tu contrase\xf1a?",s,s,s,A.aQ(s,s,A.M(204,6,72,81),s,s,s,s,s,s,s,s,s,s,s,B.a8,s,s,!0,s,s,s,s,s,s,s,s),B.hS,s),s,new A.aJh(a),s),B.h,s,s,s,s,35,s,s,s,s,r.a.a)}}
 A.aJd.prototype={
