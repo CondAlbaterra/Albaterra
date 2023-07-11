@@ -2,8 +2,8 @@
 const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
-const RESOURCES = {
-  ".git/COMMIT_EDITMSG": "678e5e019a79526d0fcca5e29f6e5f78",
+
+const RESOURCES = {".git/COMMIT_EDITMSG": "678e5e019a79526d0fcca5e29f6e5f78",
 ".git/config": "b3d794ba4db471021f404c722ea317b5",
 ".git/description": "a0a7c3fff21f2aea3cfa1d0316dd816c",
 ".git/HEAD": "cf7dd3ce51958c5f13fece957cc417fb",
@@ -20,12 +20,12 @@ const RESOURCES = {
 ".git/hooks/prepare-commit-msg.sample": "2b5c047bdb474555e1787db32b2d2fc5",
 ".git/hooks/push-to-checkout.sample": "c7ab00c7784efeadad3ae9b228d4b4db",
 ".git/hooks/update.sample": "647ae13c682f7827c22f5fc08a03674e",
-".git/index": "b1aea6b6d4976247d3309070c86406d0",
+".git/index": "345324ae1b2ce2b146d43f203d7cb21a",
 ".git/info/exclude": "036208b4a1ab4a235d75c181e685e5a3",
-".git/logs/HEAD": "b4f9c9622f2639a87c4f3febeafadd92",
-".git/logs/refs/heads/main": "62acc5d065e1bf8b5754e8dfa030e08b",
+".git/logs/HEAD": "2e42d628e13851b343cf108c1b54118d",
+".git/logs/refs/heads/main": "ac96815307e6dd3105856c92a8e70c78",
 ".git/logs/refs/remotes/oficial/main": "bede381d280575acc20d18d2487c5c28",
-".git/logs/refs/remotes/web/main": "e7c7272ad49bdcf7922f2fbbba63de23",
+".git/logs/refs/remotes/web/main": "5ed77377888ebfb9d0dbfac5bf2ca38d",
 ".git/objects/00/26d33ca3b48f7c9f06f1cd30c3651137633e5a": "2feb012bdfef226fa7264900eeec5eed",
 ".git/objects/01/191d97d7fb3888726bc9ed25548230d1830fb6": "01f164fb656d74cd89e7a255a4a1f40c",
 ".git/objects/01/5d99c604134b5c679a4e64b89c10666582b41d": "43095fe3df1b7ff43c09542e6d94ed6c",
@@ -203,6 +203,7 @@ const RESOURCES = {
 ".git/objects/73/abe9a14ba9dc68d67030d92416360cfb063f50": "07005b2ea86bad1bac42656c7ab2b5b2",
 ".git/objects/73/eba58bef607906a974abf497d9f5e75e19141f": "8ce4abd908d5e7ef38f01b12d81992a8",
 ".git/objects/74/824f335d4618e0a6107e7ffd9f11e086fcc594": "cc6e3ce00e6b1d861c28b63cca0a8cc3",
+".git/objects/74/99d6fb913218b8d03eb60b33d6e41d48aa1ca6": "c7960ca6dadf3e8fc18d4045756cb0af",
 ".git/objects/74/ff4b262aca90aa3bc30aa96fb642e0b184717c": "3917b71937038405429ac3362df9377e",
 ".git/objects/75/9ca4b022291ad6ef9fb37adb0325f2540c2c20": "d9779870991610986a5fb5740da34f93",
 ".git/objects/75/ac4b5ca4c84bfbdbb951313a5a3cad06f84304": "2afea4dd8e89b705e90bf9ffdd6f0993",
@@ -226,6 +227,7 @@ const RESOURCES = {
 ".git/objects/85/8e7a1024bcd123a943a8dbd0d130008a03a111": "af436ba39080ec9737f2758040fa2309",
 ".git/objects/85/9e23caa342990dfff7b3d9059e8f27055d9209": "4b79a56f18b974219c33b25281459e00",
 ".git/objects/86/b5e2c724c56188b5009d9ff6039c264b1546b7": "b6baf71ba97b8259fc6db840499edafc",
+".git/objects/86/ee0d61be7173a446833b1650ed4aa130ac6fa1": "17fa6ac6849e98079bb58def4376d72e",
 ".git/objects/87/055bf6554c849e20c8786c9de4ad2870e4d6b4": "3f1249abcdcc8f79df62b5626d2a7ca3",
 ".git/objects/87/16c3b5e053476fa411823d8d243c5ec6fcee23": "0c38e57e67d1a80e7c75ef7a4b112bba",
 ".git/objects/88/d809a93d813b9cd811634a69a41fe226694ec9": "342a41fdd5829fb50cbe81d759324cc4",
@@ -251,6 +253,7 @@ const RESOURCES = {
 ".git/objects/94/135a209a82ee537eab4cc4f6c62d4879ae3a41": "d681b293d7cf8cf501d6d63511ee3503",
 ".git/objects/94/cce0cdbffd72e3b23afd2b36c00f3ffac1f372": "2cdf75e4ccddf28fc4416209f5795c1f",
 ".git/objects/96/a83e3abac87d5f4d36a6c84f60873e05cec359": "d2cb2359aa2f57d5887477b4cc6b4f02",
+".git/objects/97/1d39cb565e5940f29aa336832876a0cde64786": "560f79fa048660c44832244ff185c65d",
 ".git/objects/97/52d184117d6514e76be27598a4005e32a3021f": "045b07740265c61e96d156c41778e2e8",
 ".git/objects/98/e7b6d52d7d02e3fcdb6f7390d546d52ae768a9": "4e33f93b1b9e1cc96f3ba825d69310d4",
 ".git/objects/99/e5c0f92e39efd1d5bb6af97fc6dab290a74cfe": "320e24d0e093971242ab1146b9ed8101",
@@ -372,6 +375,7 @@ const RESOURCES = {
 ".git/objects/e3/e7770bd60cfde21b761168d98fecbfad3d96ed": "c84ea32bd7cc9a92ddd2a1c65753c276",
 ".git/objects/e4/4fc4160e69a996fd495d4298b69dceb40ee507": "d87e13eeca386dd678a6d1d0ac1f43ac",
 ".git/objects/e4/b7a4e2beb2c84ae92bd487923743c64e27f169": "c40814ef6a874ed828029bc055a53f28",
+".git/objects/e5/3bc830b95241af554421a16601e4b31157e637": "3f97ecd7271d8561e9824de02062f5b5",
 ".git/objects/e5/4f472cb295ff28e44829529768fdfaa2fe486b": "1591824b5a6be1c4e9af5207fb227c9a",
 ".git/objects/e5/6cebce0b6d7a69967812e9e0312b5871f10063": "9124406292ac7e0458e09d9f638d8b8f",
 ".git/objects/e5/715491ed462fd521975dce5fdda5f3e2d5d705": "82cd12a48a3ea7887f7cae5303521cb9",
@@ -393,6 +397,7 @@ const RESOURCES = {
 ".git/objects/ef/a3a0df9be2298bdbfc31c553d79a1f54a7c7b8": "bbc30a93f2a9a846852559de5c606f8f",
 ".git/objects/f0/ce977ec1ff551132b9e55621d07e49d91cdbb7": "c345db7a348a178b534ee1602ba6744a",
 ".git/objects/f2/33ce1a7069d44c3eb8db81419d8d82bf1a67d0": "d2c90ce98ee0962f440988db4a520da2",
+".git/objects/f2/528c4660d983da909e6f7405d71887aafcf604": "b04cafb3c6b4584d156f8f51bd1c92ae",
 ".git/objects/f3/67fd070a6659d44a24ba7dbee806c376b29f40": "702003f0cb3110d18e19c799bd6e22a5",
 ".git/objects/f6/3e802407d9c6d2d7bec10cd125cb2fa1b050c6": "6e1da984d11955b0124f130f96e568a3",
 ".git/objects/f6/4487ffe38ca4b3d3d01cbd232232c950a7c736": "db252997cced647f441b246e8b87fa16",
@@ -413,9 +418,10 @@ const RESOURCES = {
 ".git/objects/fe/94133ff377f396660c3dd5a898093c8dd98b92": "ebb31c8ec48472875967f0d11718bdf3",
 ".git/objects/fe/c0f14a55a1b0d0679122e6559de517be6384b1": "f17fd3ebe08a1e2cdc2952dd044170ab",
 ".git/objects/ff/146d64fb2ed07275ee335906b8981d169255bb": "f4d34cd42bdefe889c094427e95a3377",
-".git/refs/heads/main": "af2200bf00b72d67153101bc9b220ad9",
+".git/refs/heads/main": "62d05ee7b453c1434462329116dd31f9",
 ".git/refs/remotes/oficial/main": "ce78f402fc22fd640d2694742bf1e4e3",
-".git/refs/remotes/web/main": "af2200bf00b72d67153101bc9b220ad9",
+".git/refs/remotes/web/main": "62d05ee7b453c1434462329116dd31f9",
+"assets/AssetManifest.bin": "d728217565d8bf90701d01e5e89b0ddc",
 "assets/AssetManifest.json": "77cde6e5df86b501e4dd6cb990a39a2b",
 "assets/assets/images/ALBATERRA-ADS-RRSS-MARZ-AF-01.jpg": "6628edb2adcee6b4b215c4018ed74a92",
 "assets/assets/images/ALBATERRA-ADS-RRSS-MARZ-AF-02.jpg": "d401a6b40a3ff5392c8bba2360718477",
@@ -563,37 +569,41 @@ const RESOURCES = {
 "assets/assets/images/vision.png": "e1bae521b30f18b2450eec6fbcadea97",
 "assets/assets/images/world_countries.csv": "f4821393189e0906141ccbe2ccbffaa9",
 "assets/FontManifest.json": "5a32d4310a6f5d9a6b651e75ba0d7372",
-"assets/fonts/MaterialIcons-Regular.otf": "e7069dfd19b331be16bed984668fe080",
-"assets/NOTICES": "29bfb67845d9d514e4311e369e1ef1d6",
-"assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
-"assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "b00363533ebe0bfdb95f3694d7647f6d",
-"assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "0a94bab8e306520dc6ae14c2573972ad",
-"assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "9cda082bd7cc5642096b56fa8db15b45",
-"canvaskit/canvaskit.js": "97937cb4c2c2073c968525a3e08c86a3",
-"canvaskit/canvaskit.wasm": "3de12d898ec208a5f31362cc00f09b9e",
+"assets/fonts/MaterialIcons-Regular.otf": "5483b819986f3c809a4d026fbf6e0cba",
+"assets/NOTICES": "8382596a3536f76e5600fc83b8c66e74",
+"assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "57d849d738900cfd590e9adc7e208250",
+"assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "5ac99533bd9dc46227434b4853c3e532",
+"assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "093d2cde7075fcffb24ab215668d0da2",
+"assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "1e17b1ec3152f29bf783bd42db8b6023",
+"assets/shaders/ink_sparkle.frag": "f8b80e740d33eb157090be4e995febdf",
+"canvaskit/canvaskit.js": "76f7d822f42397160c5dfc69cbc9b2de",
+"canvaskit/canvaskit.wasm": "f48eaf57cada79163ec6dec7929486ea",
+"canvaskit/chromium/canvaskit.js": "8c8392ce4a4364cbb240aa09b5652e05",
+"canvaskit/chromium/canvaskit.wasm": "fc18c3010856029414b70cae1afc5cd9",
 "canvaskit/profiling/canvaskit.js": "c21852696bc1cc82e8894d851c01921a",
 "canvaskit/profiling/canvaskit.wasm": "371bc4e204443b0d5e774d64a046eb99",
+"canvaskit/skwasm.js": "1df4d741f441fa1a4d10530ced463ef8",
+"canvaskit/skwasm.wasm": "6711032e17bf49924b2b001cef0d3ea3",
+"canvaskit/skwasm.worker.js": "19659053a277272607529ef87acf9d8a",
 "favicon.png": "f5acb776dedc8bf4f04cea8256871887",
-"flutter.js": "a85fcf6324d3c4d3ae3be1ae4931e9c5",
+"flutter.js": "6b515e434cea20006b3ef1726d2c8894",
 "icons/Icon-192.png": "8408934557fa1000a8744faa6b1c2e13",
 "icons/Icon-512.png": "485224332a5f78b11ea6e0c8128a1a58",
 "icons/Icon-maskable-192.png": "d6b50f5744b405e1a56d3659d7ad2591",
 "icons/Icon-maskable-512.png": "50947c6915140511591da4bb146acd02",
-"index.html": "7fa9f9117ec1d277f7a739d5f1d93ea3",
-"/": "7fa9f9117ec1d277f7a739d5f1d93ea3",
-"main.dart.js": "2d102bdb810f9351550c0bf2cd512517",
+"index.html": "1c4ef8df9f3b29f57d9821080dbb571d",
+"/": "1c4ef8df9f3b29f57d9821080dbb571d",
+"main.dart.js": "93df9b3fdeed216aced7ceecff44d198",
 "manifest.json": "d0ba7fca21c41a56a60eb5c821bbe17e",
 "README.md": "095c58adb887e8b567eef150bcc56d4c",
-"version.json": "f4812e959d4432be401573b415f9a234"
-};
-
+"version.json": "f4812e959d4432be401573b415f9a234"};
 // The application shell files that are downloaded before a service worker can
 // start.
-const CORE = [
-  "main.dart.js",
+const CORE = ["main.dart.js",
 "index.html",
 "assets/AssetManifest.json",
 "assets/FontManifest.json"];
+
 // During install, the TEMP cache is populated with the application shell files.
 self.addEventListener("install", (event) => {
   self.skipWaiting();
@@ -604,7 +614,6 @@ self.addEventListener("install", (event) => {
     })
   );
 });
-
 // During activate, the cache is populated with the temp files downloaded in
 // install. If this service worker is upgrading from one with a saved
 // MANIFEST, then use this to retain unchanged resource files.
@@ -626,6 +635,8 @@ self.addEventListener("activate", function(event) {
         await caches.delete(TEMP);
         // Save the manifest to make future upgrades efficient.
         await manifestCache.put('manifest', new Response(JSON.stringify(RESOURCES)));
+        // Claim client to enable caching on first launch
+        self.clients.claim();
         return;
       }
       var oldManifest = await manifest.json();
@@ -651,6 +662,8 @@ self.addEventListener("activate", function(event) {
       await caches.delete(TEMP);
       // Save the manifest to make future upgrades efficient.
       await manifestCache.put('manifest', new Response(JSON.stringify(RESOURCES)));
+      // Claim client to enable caching on first launch
+      self.clients.claim();
       return;
     } catch (err) {
       // On an unhandled exception the state of the cache cannot be guaranteed.
@@ -661,7 +674,6 @@ self.addEventListener("activate", function(event) {
     }
   }());
 });
-
 // The fetch handler redirects requests for RESOURCE files to the service
 // worker cache.
 self.addEventListener("fetch", (event) => {
@@ -701,7 +713,6 @@ self.addEventListener("fetch", (event) => {
     })
   );
 });
-
 self.addEventListener('message', (event) => {
   // SkipWaiting can be used to immediately activate a waiting service worker.
   // This will also require a page refresh triggered by the main worker.
@@ -714,7 +725,6 @@ self.addEventListener('message', (event) => {
     return;
   }
 });
-
 // Download offline will check the RESOURCES for all files not in the cache
 // and populate them.
 async function downloadOffline() {
@@ -735,7 +745,6 @@ async function downloadOffline() {
   }
   return contentCache.addAll(resources);
 }
-
 // Attempt to download the resource online before falling back to
 // the offline cache.
 function onlineFirst(event) {
