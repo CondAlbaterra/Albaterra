@@ -52328,7 +52328,7 @@ e=i.a
 d=A.bC(f,e)
 c=A.bC(h.aS(0,"fechaPago"),e)
 b=A.bC(h.aS(0,"valorPago"),e)
-a=A.W(["id",B.d.gZ(g),"conceptoPago",d,"date",c,"amount",b],l,k)
+a=A.W(["id",B.d.gZ(g),"conceptoPago",d,"fechaPago",c,"valorPago",b],l,k)
 q.R8.push(a)}}return A.l(null,r)}})
 return A.m($async$zK,r)},
 PU(){this.D(new A.aHY(this))},
@@ -52656,7 +52656,7 @@ r.RG=s-r.rx},
 nB(a){return this.a6N(a)},
 a6N(a){var s=0,r=A.n(t.z),q=this,p,o,n,m,l,k
 var $async$nB=A.j(function(b,c){if(b===1)return A.k(c,r)
-while(true)switch(s){case 0:if(a>0&&!J.f(q.R8[a-1].h(0,"date"),"")){p=A.aA("dd-MM-yyyy",null).dl(q.R8[a-1].h(0,"date"),!1,!1)
+while(true)switch(s){case 0:if(a>0&&!J.f(q.R8[a-1].h(0,"fechaPago"),"")){p=A.aA("dd-MM-yyyy",null).dl(q.R8[a-1].h(0,"fechaPago"),!1,!1)
 o=p.H(0,B.jt)}else{o=new A.a2(Date.now(),!1)
 n=A.aN(2000,1,1,0,0,0,0,!1)
 if(!A.aC(n))A.G(A.aE(n))
@@ -53363,14 +53363,14 @@ $0(){this.a.b9=A.aA("dd-MM-yyyy",null).aN(this.b)},
 $S:0}
 A.aHW.prototype={
 $0(){var s=this,r=s.a
-r.R8[s.b].k(0,"date",s.c)
+r.R8[s.b].k(0,"fechaPago",s.c)
 r.ry=s.d},
 $S:0}
 A.aHB.prototype={
-$2(a,b){return a+J.c(b,"amount")},
+$2(a,b){return a+J.c(b,"valorPago")},
 $S:50}
 A.aHC.prototype={
-$2(a,b){var s=null,r=this.b,q=A.R(r[b].h(0,"date")),p=A.R(A.F(J.a0(r[b].h(0,"amount")))),o=this.a
+$2(a,b){var s=null,r=this.b,q=A.R(r[b].h(0,"fechaPago")),p=A.R(A.F(J.a0(r[b].h(0,"valorPago")))),o=this.a
 return A.b0(A.a([A.a3(A.B4(!1,p,A.cv(s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,!1,s,s,A.a6(s,s,B.ji,s,s,s,s,s,s,s,s,s,s,s,B.S,s,s,!0,s,s,s,s,s,s,s,s),"Cuota "+(b+1),s,B.vE,s,s,s,s,s,s,s,s,s,s,s),A.a([$.aWf()],t.VS),B.rg,new A.aHy(o,r,b,p),s,s,s,B.M,s),4),A.a3(A.B4(!1,q,A.cv(s,s,s,s,s,s,s,s,!0,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,!1,s,s,A.a6(s,s,B.ji,s,s,s,s,s,s,s,s,s,s,s,B.S,s,s,!0,s,s,s,s,s,s,s,s),"Fecha de pago",s,B.vF,s,s,s,s,s,s,s,s,s,s,s),s,B.mR,s,s,s,new A.aHz(o,b),B.M,s),4),A.a3(A.l7(s,s,s,A.ck(B.oG,B.aJ,s),s,new A.aHA(o,r,b),s,s,s,s),1)],t.p),B.j,B.i,B.k)},
 $S:146}
 A.aHy.prototype={
@@ -53381,7 +53381,7 @@ s.D(new A.aHw(s,r.b,r.c,q,r.d))},
 $S:12}
 A.aHw.prototype={
 $0(){var s,r=this,q=r.b,p=r.d
-q[r.c].k(0,"amount",p)
+q[r.c].k(0,"valorPago",p)
 s=r.a
 s.rx=B.d.jT(q,0,new A.aHt())
 s.nV()
@@ -53390,7 +53390,7 @@ p=B.c.m(p)
 r.e.h8(0,new A.cY(A.F(B.b.j(p)),A.eU(B.y,A.F(B.b.j(p)).length),B.aF))},
 $S:0}
 A.aHt.prototype={
-$2(a,b){return a+J.c(b,"amount")},
+$2(a,b){return a+J.c(b,"valorPago")},
 $S:50}
 A.aHz.prototype={
 $0(){var s=0,r=A.n(t.H),q=this
@@ -53411,14 +53411,14 @@ s.rx=B.d.jT(r,0,new A.aHs())
 s.nV()},
 $S:0}
 A.aHs.prototype={
-$2(a,b){return a+J.c(b,"amount")},
+$2(a,b){return a+J.c(b,"valorPago")},
 $S:50}
 A.aHD.prototype={
 $0(){var s,r,q=this.a
 q.nV()
 s=q.RG
 r=this.b
-r.push(A.W(["amount",s,"amountController",A.R(A.F(B.b.j(B.c.m(s)))),"date",A.cC(!1,1,q.ry,!1),"controller",A.R(A.cC(!1,1,q.ry,!1))],t.N,t.z))
+r.push(A.W(["valorPago",s,"valorPagoController",A.R(A.F(B.b.j(B.c.m(s)))),"fechaPago",A.cC(!1,1,q.ry,!1),"controller",A.R(A.cC(!1,1,q.ry,!1))],t.N,t.z))
 q.D(new A.aHx(q,r))},
 $S:0}
 A.aHx.prototype={
@@ -53428,7 +53428,7 @@ s.nV()
 s.rU()},
 $S:0}
 A.aHu.prototype={
-$2(a,b){return a+J.c(b,"amount")},
+$2(a,b){return a+J.c(b,"valorPago")},
 $S:50}
 A.aHX.prototype={
 $1(a){return B.ti},
