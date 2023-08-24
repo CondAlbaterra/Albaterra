@@ -53603,13 +53603,13 @@ return A.l(null,r)}})
 return A.m($async$oz,r)},
 A3(a){var s="LOTE SEPARADO"
 if(a==="CREADA")return"AUTORIZADA"
-if(a==="AUTORIZADA")return s
+if(a==="AUTORIZADA"||a==="ACTIVA")return s
 else return s},
 Nc(a){if(a==="CREADA")return"Autorizar cotizaci\xf3n"
-if(a==="AUTORIZADA")return"Generar separaci\xf3n"
+if(a==="AUTORIZADA"||a==="ACTIVA")return"Generar separaci\xf3n"
 else return"Lote separado"},
 BW(a){if(a==="CREADA")return B.aF
-if(a==="AUTORIZADA")return B.nZ
+if(a==="AUTORIZADA"||a==="ACTIVA")return B.nZ
 if(a==="LOTE SEPARADO")return B.jp
 else return B.jq},
 Gz(a){if(a)return""
