@@ -49575,7 +49575,7 @@ n=t.a
 s=2
 return A.h(A.al(p,p.gY().Z("planPagos")).b6(0,q.as).bV(0),$async$iQ)
 case 2:o=n.a(b.ez(0))
-q.x=A.U(["dcto",o.h(0,"dcto"),"estadoPago",o.h(0,"estadoPago"),"porcCI",o.h(0,"porcCI"),"precioIni",o.h(0,"precioIni"),"precioFin",o.h(0,"precioFin"),"saldoPorPagar",o.h(0,"saldoPorPagar"),"valorPagado",o.h(0,"valorPagado"),"valorSeparacion",o.h(0,"valorSeparacion")],t.N,t.z)
+q.x=A.U(["dcto",o.h(0,"dcto"),"estadoPago",o.h(0,"estadoPago"),"porcCI",o.h(0,"porcCI"),"precioIni",o.h(0,"precioIni"),"precioFin",o.h(0,"precioFin"),"saldoPorPagar",o.h(0,"saldoPorPagar"),"valorPagado",o.h(0,"valorPagado"),"valorSeparacion",o.h(0,"valorSeparacion"),"idPlanPagos",o.h(0,"idPlanPagos")],t.N,t.z)
 return A.l(null,r)}})
 return A.m($async$iQ,r)},
 K(b2){var s,r,q,p,o,n,m,l,k,j,i,h,g,f,e,d,c,b,a,a0,a1,a2,a3,a4,a5=this,a6=null,a7="[DEFAULT]",a8="dd-MM-yyyy",a9="name",b0="valorPagado",b1=t.P
@@ -49848,7 +49848,7 @@ p=i.as
 o=i.ok
 o===$&&A.b()
 s=5
-return A.h(A.ab0(p,B.e.dN(B.b.j(o+1),5,"0")+"-"+i.as,i.at,i.k2.a.a,i.fx.a.a,i.k1.a.a,i.go,h.a.a,i.cy.a.a,i.db.a.a,i.dy.a.a,i.dx.a.a,i.id,i.fr.a.a,i.w.h(0,"sid")),$async$$0)
+return A.h(A.ab0(p,B.e.dN(B.b.j(o+1),5,"0")+"-"+i.as,i.at,i.k2.a.a,i.fx.a.a,i.k1.a.a,i.go,h.a.a,i.cy.a.a,i.db.a.a,i.dy.a.a,i.dx.a.a,i.id,i.fr.a.a,i.x.h(0,"idPlanPagos")),$async$$0)
 case 5:h=i.as
 o=i.x.h(0,"precioIni")
 p=i.ay
