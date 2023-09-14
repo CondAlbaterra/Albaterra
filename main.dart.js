@@ -55148,7 +55148,7 @@ q.p3[a].h(0,"controller").sC(0,k)}return A.l(null,r)}})
 return A.m($async$nG,r)},
 ZZ(){var s,r=this.B
 if(r==="Financiaci\xf3n directa")s=A.dJ(this.aW,null)
-else s=r==="Personalizado"?this.p3.length+1:1
+else s=r==="Personalizado"?this.p3.length:1
 return s},
 kP(){var s=this,r=s.x2,q=s.R8
 if(r===q)s.rx=B.bf
