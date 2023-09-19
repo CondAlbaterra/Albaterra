@@ -53950,7 +53950,7 @@ var $async$om=A.j(function(b,c){if(b===1)return A.k(c,r)
 while(true)switch(s){case 0:o=a
 s=3
 return A.h(p.nw(),$async$om)
-case 3:if(o===c||a==="javieruedase@gmail.com"){q=!0
+case 3:if(o===c||a==="javieruedase@gmail.com"||a==="lauramelissaagudelovelez@gmail.com"){q=!0
 s=1
 break}else{q=!1
 s=1
